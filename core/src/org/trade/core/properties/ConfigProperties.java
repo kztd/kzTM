@@ -514,6 +514,9 @@ public class ConfigProperties {
 	 *            String[]
 	 */
 	public static void main(String[] args) {
+		/* 
+		 * This file does not exist;  If you are wondering why you are here, check your run config base clase
+		 */
 		String propertyFileLocation = "C:\\Temp\\trade.properties";
 		ConfigProperties.reNumberDecodesInPropertiesFile(propertyFileLocation);
 	}
